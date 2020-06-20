@@ -9,24 +9,23 @@ The demo is standard School application. Run the program and leave your computer
 **If you are not able to download from the link above, drop me private message and I will send you a zip.**  
 
 ## Conceptual example
-`
-  PROGRAM
-  INCLUDE('scrsvr.inc'), ONCE
-  MAP
-  END
-Window                        WINDOW('Caption'),AT(,,361,210),GRAY,FONT('Segoe UI',9),RESIZE
-                                ENTRY(@s20),AT(34,56),USE(?ENTRY1)
-                                BUTTON('Button1'),AT(140,55),USE(?BUTTON1)
-                                BUTTON('Close'),AT(304,182,46),USE(?bClose),STD(STD:Close)
-                              END
-im                            TIdleMonitor
-ss                            TScreenSaverBase
-  CODE
-  OPEN(Window)
-  im.Init(Window, 5, ss)
-  ACCEPT
-  END
-`
+>  PROGRAM
+>  INCLUDE('scrsvr.inc'), ONCE
+>  MAP
+>  END
+>Window                        WINDOW('Caption'),AT(,,361,210),GRAY,FONT('Segoe UI',9),RESIZE
+>                                ENTRY(@s20),AT(34,56),USE(?ENTRY1)
+>                                BUTTON('Button1'),AT(140,55),USE(?BUTTON1)
+>                                BUTTON('Close'),AT(304,182,46),USE(?bClose),STD(STD:Close)
+>                              END
+>im                            TIdleMonitor
+>ss                            TScreenSaverBase
+>  CODE
+>  OPEN(Window)
+>  im.Init(Window, 5, ss)
+>  ACCEPT
+>  END
+In other words, you should declare 2 variables: im (TIdleMonitor) and ss (TScreenSaverBase), and call im.Init() somewhere after OPNE(Window).
 
 ## Requirements
 - Windows 2000 and higher
