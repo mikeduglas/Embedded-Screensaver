@@ -2,8 +2,10 @@
 Embedded screensaver is like system screensaver - it is launching if a user is inactive for some period (no mouse or keyboard input).  
 Unlike system screensaver, embedded one is running inside your program, keeping your opened windows away from prying eyes while you have lunch.  
 
-The demo is standard School application. Run the program and leave your computer alone for 10-12 seconds to see the effect.  
-2 screensavers are available inside School app - basic (default) and Ball Fusion. You can choose one or another from the menu.  
+The demo is standard School application. Run the program and leave your computer alone for 10-12 seconds to see the effect, 
+or select Test item from Screensaver menu to run active screensaver immediately.  
+  
+3 screensavers are available inside School app - basic (floating text), digital clock, and Ball Fusion. You can choose one or another from the menu.  
 
 [Download the demo](https://yadi.sk/d/nox5p_Hhq3SgCg)  
 **If you are not able to download from the link above, drop me private message and I will send you a zip.**  
@@ -21,7 +23,7 @@ Window                        WINDOW('Caption'),AT(,,361,210),GRAY,FONT('Segoe U
                                 BUTTON('Close'),AT(304,182,46),USE(?bClose),STD(STD:Close)
                               END
 im                            TIdleMonitor
-ss                            TScreenSaverBase
+ss                            TScreenSaverSimple
   CODE
   OPEN(Window)
   im.Init(Window, 5, ss)
@@ -29,7 +31,7 @@ ss                            TScreenSaverBase
   END
 ```
 
-In other words, you should declare 2 variables: im (TIdleMonitor) and ss (TScreenSaverBase), and call im.Init() somewhere after OPEN(Window).
+In other words, you should declare 2 variables: im (TIdleMonitor) and ss (TScreenSaverSimple), and call im.Init() somewhere after OPEN(Window).
 
 ## Requirements
 - Windows 2000 and higher
