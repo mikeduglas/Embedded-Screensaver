@@ -1,14 +1,26 @@
 # Embedded-Screensaver
 Embedded screensaver is like system screensaver - it is launching if a user is inactive for some period (no mouse or keyboard input).  
 Unlike system screensaver, embedded one is running inside your program, keeping your opened windows away from prying eyes while you have lunch.  
+  
+The package includes 3 sample screensavers: Floating Text, Digital Clock, and Ball Fusion, but you can easily add your owns.
 
+## Demo app
 The demo is standard School application. Run the program and leave your computer alone for 10-12 seconds to see the effect, 
 or select Test item from Screensaver menu to run active screensaver immediately.  
   
-3 screensavers are available inside School app - basic (floating text), digital clock, and Ball Fusion. You can choose one or another from the menu.  
+All 3 sample screensavers are available.
 
 [Download the demo](https://yadi.sk/d/nox5p_Hhq3SgCg)  
 **If you are not able to download from the link above, drop me private message and I will send you a zip.**  
+
+### Floating Text
+Customizable options: text, font, size, style, text color, speed.
+
+### Digital Clock
+Customizable options: font, size, style, color, time format.
+
+### Ball Fusion
+Customizable options: text, font, size, style, text color, speed.
 
 ## Conceptual example
 
@@ -23,7 +35,7 @@ Window                        WINDOW('Caption'),AT(,,361,210),GRAY,FONT('Segoe U
                                 BUTTON('Close'),AT(304,182,46),USE(?bClose),STD(STD:Close)
                               END
 im                            TIdleMonitor
-ss                            TScreenSaverSimple
+ss                            TScreenSaverFloatingText
   CODE
   OPEN(Window)
   im.Init(Window, 5, ss)
