@@ -2,13 +2,13 @@
 Embedded screensaver is like system screensaver - it is launching if a user is inactive for some period (no mouse or keyboard input).  
 Unlike system screensaver, embedded one is running inside your program, keeping your opened windows away from prying eyes while you have lunch.  
   
-The package includes 3 sample screensavers: Floating Text, Digital Clock, and Ball Fusion, but you can easily add your owns.
+The package includes 4 sample screensavers: Floating Text, Digital Clock, Static Image, and Ball Fusion, but you can easily add your owns.
 
 ## Demo app
 The demo is standard School application. Run the program and leave your computer alone for 10-12 seconds to see the effect, 
 or select Test item from Screensaver menu to run active screensaver immediately.  
   
-All 3 sample screensavers are available.
+All 4 screensavers are available.
 
 [Download the demo](https://yadi.sk/d/nox5p_Hhq3SgCg)  
 **If you are not able to download from the link above, drop me private message and I will send you a zip.**  
@@ -18,6 +18,9 @@ Customizable options: text, font, size, style, text color, speed.
 
 ### Digital Clock
 Customizable options: font, size, style, color, time format.
+
+### Static Image
+Customizable options: image file.
 
 ### Ball Fusion
 Customizable options: text, font, size, style, text color, speed.
