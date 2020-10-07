@@ -55,7 +55,7 @@ In other words, you should declare 2 variables: im (TIdleMonitor) and ss (TScree
 ## Requirements
 - Windows 2000 and higher
 - C6 and higher, ABC/Legacy
-- source code only
+- No dependencies
 
 ## Dependencies
 - No
