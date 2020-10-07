@@ -14,7 +14,7 @@ or select Test item from Screensaver menu to run active screensaver immediately.
   
 All 4 screensavers are available.
 
-[Download the demo](https://yadi.sk/d/nox5p_Hhq3SgCg)  
+[Download the demo](https://yadi.sk/d/pdJ_IXlw1oeMBg)  
 **If you are not able to download from the link above, drop me private message and I will send you a zip.**  
 
 ### Floating Text
