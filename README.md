@@ -2,7 +2,11 @@
 Embedded screensaver is like system screensaver - it is launching if a user is inactive for some period (no mouse or keyboard input).  
 Unlike system screensaver, embedded one is running inside your program, keeping your opened windows away from prying eyes while you have lunch.  
   
-The package includes 4 sample screensavers: Floating Text, Digital Clock, Static Image, and Ball Fusion, but you can easily add your owns.
+The package includes 4 sample screensavers: Floating Text, Digital Clock, Static Image, and Ball Fusion, but you can easily add your owns.  
+
+## Template
+Just add global extension and local extension to WINDOW procedure, usually it is Main Appframe procedure.
+![Screensaver template](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/template.png?raw=true)  
 
 ## Demo app
 The demo is standard School application. Run the program and leave your computer alone for 10-12 seconds to see the effect, 
