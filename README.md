@@ -19,15 +19,18 @@ All 4 screensavers are available.
 
 ### Floating Text
 Customizable options: text, font, size, style, text color, speed.
+![Floating text](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/floatingtext.png?raw=true)  
 
 ### Digital Clock
 Customizable options: font, size, style, color, time format.
-
-### Static Image
-Customizable options: image file.
+![Digital clock](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/clock.png?raw=true)  
 
 ### Ball Fusion
 Customizable options: text, font, size, style, text color, speed.
+![Ball Fusion](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/ballfusion.png?raw=true)  
+
+### Static Image
+Customizable options: image file.
 
 ## Conceptual example
 
