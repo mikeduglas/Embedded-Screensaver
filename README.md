@@ -6,7 +6,8 @@ The package includes 4 sample screensavers: Floating Text, Digital Clock, Static
 
 ## Template
 Just add global extension and local extension to WINDOW procedure, usually it is Main Appframe procedure.
-![Screensaver template](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/template.png?raw=true)  
+![Screensaver template](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/template1.png?raw=true)  
+![Screensaver template](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/template2.png?raw=true)  
 
 ## Demo app
 The demo is standard School application. Run the program and leave your computer alone for 10-12 seconds to see the effect, 
