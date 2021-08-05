@@ -9,14 +9,14 @@ Just add global extension and local extension to WINDOW procedure, usually it is
 ![Screensaver template](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/template1.png?raw=true)  
 ![Screensaver template](https://github.com/mikeduglas/Embedded-Screensaver/blob/master/template2.png?raw=true)  
 
+## Features
+- Password protected screensaver.
+
 ## Demo app
 The demo is standard School application. Run the program and leave your computer alone for 10-12 seconds to see the effect, 
 or select Test item from Screensaver menu to run active screensaver immediately.  
   
 All 4 screensavers are available.
-
-[Download the demo](https://yadi.sk/d/pdJ_IXlw1oeMBg)  
-**If you are not able to download from the link above, drop me private message and I will send you a zip.**  
 
 ### Floating Text
 Customizable options: text, font, size, style, text color, speed.
