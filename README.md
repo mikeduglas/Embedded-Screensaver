@@ -59,5 +59,5 @@ ss                            TScreenSaverFloatingText
 - C6 and higher, ABC/Legacy
 - No dependencies
 
-## Price
-- $100
+
+[Buy now](https://www.clarionshop.com/checkout.cfm?pid=1650&q=1&)
